@@ -5,42 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Museum de pixel</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+        setTimeout(() => {
+            window.location.href = 'story.html';
+        }, 10000);
+    </script>
 </head>
-<body>
-    
+<body> 
     <div class="navbar">
         <ul>
-            <li class="active">Characters</li>
-            <li>Story</li>
-            <li>Weapons</li>
-            <li>Locations</li>
-            <li>About</li>
+            <img src="img/logo.jpg" class="logo" alt="Museum de Pixel logo">
+            <a href="index.html"><li class="active">Characters</li></a>
+            <a href="story.html"><li>Story</li></a>
+            <a href="weapons.html"><li>Weapons</li></a>
+            <a href="locations.html"><li>Locations</li></a>
+            <a href="about.html"><li>About</li></a>
         </ul>
     </div>
     <div class="content">
         <div class="title">
-            <h1 style="transform: scale(2); transform-origin: center center;">Characters</h1>
+            <h1 class="title_text">Characters</h1>
         </div>
 
-        <div class="content_stuff">
-            <div class="text-container">
-                <div>
-                    <h1 class="content_title">Carl Johnson</h1>
-                    <p class="text-top">ook wel bekend als CJ, is een jonge man die na jaren afwezigheid terugkeert naar zijn thuisstad om zijn familie en gemeenschap te helpen. Hij wordt geconfronteerd met ingewikkelde relaties, machtsstrijd en persoonlijke groei terwijl hij probeert zijn verleden en toekomst in balans te brengen.</p>
-                </div>
-                <img src="img/cj.gif" alt="Carl Johnson" class="content_image">
+        <div class="text-container">
+            <div>
+                <h1 class="content_title">Carl Johnson</h1>
+                <p class="text-top">ook wel bekend als CJ, is een jonge man die na jaren afwezigheid terugkeert naar zijn thuisstad om zijn familie en gemeenschap te helpen. Hij wordt geconfronteerd met ingewikkelde relaties, machtsstrijd en persoonlijke groei terwijl hij probeert zijn verleden en toekomst in balans te brengen.</p>
             </div>
+            <img src="img/cj.gif" alt="Carl Johnson" class="content_image">
         </div>
 
         <img id="image" src="img/drone_view.jpg" alt="Bird's eye view of Grove street">
 
-        <div class="content_stuff">
-            <div class="text-container">
-                <img src="img/big_smoke.jpg" alt="Big Smoke" class="content_image">
-                <div>
-                    <h1 class="content_title">Big Smoke</h1>
-                    <p class="text-bottom">is een charismatische en ambitieuze man die streeft naar macht en rijkdom, zelfs als dat betekent dat hij zijn oude vrienden verraadt. Hoewel hij een charmante persoonlijkheid heeft, wordt zijn loyaliteit uiteindelijk overschaduwd door hebzucht.</p>
-                </div>
+        <div class="text-container">
+            <img src="img/big_smoke.jpg" alt="Big Smoke" class="content_image">
+            <div>
+                <h1 class="content_title">Big Smoke</h1>
+                <p class="text-bottom">is een charismatische en ambitieuze man die streeft naar macht en rijkdom, zelfs als dat betekent dat hij zijn oude vrienden verraadt. Hoewel hij een charmante persoonlijkheid heeft, wordt zijn loyaliteit uiteindelijk overschaduwd door hebzucht.</p>
             </div>
         </div>
     </div>
