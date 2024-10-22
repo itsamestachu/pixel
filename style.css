@@ -148,7 +148,23 @@ body {
 .logo {
     height: 90px;
 }
+.weapon_showcase {
+    animation: slideIn 0.5s;
+}
 
+.weapon_showcase td {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.weapon_showcase img {
+    max-height: 140px;
+}
+
+#weapon_text {
+    opacity: 0;
+    animation: slideIn 0.5s forwards 0.25s;
+}
 
 #image {
     animation: slideIn 0.5s;
